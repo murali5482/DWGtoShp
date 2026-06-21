@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwg-to-shp"
+version = "0.1.0"
+description = "Standalone CAD DWG/DXF to ESRI Shapefile converter."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ezdxf>=1.4,<2",
+    "pyshp>=2.3,<3",
+]
+
+[project.scripts]
+dwg-to-shp = "dwg_to_shp.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

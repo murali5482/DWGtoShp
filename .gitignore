@@ -1,0 +1,9 @@
+.venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+.pytest_cache/
+sample.dxf
+test_output_*/
