@@ -33,6 +33,8 @@ Optional projection sidecar:
 dist\dwg-to-shp-cli.exe "C:\path\site-plan.dxf" -o "C:\path\output" --prj "C:\path\source.prj"
 ```
 
+You can download matching `.prj` projection files from [Spatial Reference](https://spatialreference.org/ref/).
+
 Keep closed polylines as line features:
 
 ```powershell
